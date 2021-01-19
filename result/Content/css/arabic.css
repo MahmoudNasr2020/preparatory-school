@@ -1,0 +1,228 @@
+@font-face {
+	font-family: 'DroidArabicKufi';
+
+	src: url('fonts/DroidArabicKufid41d.html?#iefix') format('embedded-opentype'), url('https://www.cairogovresults.com/fonts/DroidArabicKufi.woff') format('woff'), url('fonts/DroidArabicKufi.html') format('truetype'), url('fonts/DroidArabicKufi-2.html#fonts/DroidArabicKufi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*:not(.fa) {
+	font-family: 'DroidArabicKufi' !important
+}
+
+body {
+	direction: rtl;
+}
+
+a:hover {
+	color: initial
+}
+
+.search-input {
+	width: 190px;
+}
+
+.mainmenu li a {
+	font-size: 15px;
+	font-weight: bold
+}
+
+.wellcome-area-wrapper {
+	background-image: url(img/bg/wellcome-bg-ar.html);
+	background-position: left
+}
+
+.welcome-boxed .wellcome-area-wrapper {
+	padding-left: 0;
+	padding-right: 100px;
+	text-align: right
+}
+
+.wellcome-content h2 {
+	text-align: right
+}
+
+.wellcome-content p {
+	padding-right: 0;
+	padding-left: 70px
+}
+
+.search-input.active {
+	margin-right: -10px
+}
+
+.mainmenu li.active a::after {
+	top: 59px;
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	visibility: visible;
+}
+
+.bg-6 {
+    background-image: url('../img/slider/cover%205.jpg');
+}
+
+.bg-10 {
+    background-image: url('../img/slider/cover%205.jpg');
+}
+
+.fet-icon img {
+	height: 50px;
+	margin-top: -5px
+}
+
+.single-features h3 {
+	letter-spacing: 0
+}
+
+.style-five .single-features {
+	height: 400px;
+	margin-bottom: 30px
+}
+
+.bg-red .fet-icon {
+    background-image: url('../img/icon/icon-bg-or.png');
+}
+
+.feature-area-wrapper .single-features.bg-red:hover {
+	border-bottom: 10px solid #f00;
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+.feature-area-wrapper .single-features.bg-red:hover h3 {
+	color: #f00
+}
+
+.bg-yellow .fet-icon {
+    background-image: url('../img/icon/icon-bg-or.png');
+}
+
+.feature-area-wrapper .single-features.bg-yellow:hover {
+	border-bottom: 10px solid #ff0;
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+.feature-area-wrapper .single-features.bg-yellow:hover h3 {
+	color: #ffa726
+}
+
+.accordion .out-link, .accordion .link, .accordion li a {
+	text-align: right
+}
+
+.mob-logo {
+	padding-left: 0;
+	width: auto;
+}
+
+.accordion.active {
+	text-align: center
+}
+
+.accordion li i.fa-chevron-down {
+	right: auto;
+	left: 30px
+}
+
+#scrollUp {
+	left: 27px;
+	right: initial;
+	z-index: 10000000 !important;
+}
+
+.rs-counter .rs-counter-list {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 23px;
+	transition: .3s all ease;
+	border-radius: 20px;
+	-ms-transform: translate(0px,-10px);
+    -webkit-transform: translate(0px,-10px);
+    transform: translate(0px,-10px);
+    -webkit-box-shadow: 0px 6px 16px 0px rgba(66, 66, 66, 0.23);
+    box-shadow: 0px 6px 16px 0px rgba(66, 66, 66, 0.23);
+
+}
+
+.rs-counter .rs-counter-list .counter-number {
+	font-size: 60px;
+	color: #ffffff;
+	margin-bottom: 6px;
+}
+
+.rs-counter .rs-counter-list .counter-desc {
+	color: #ffffff;
+	font-weight: 500;
+	margin-bottom: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.rs-counter .rs-counter-list:hover {
+	transition: 0.3s ease-in-out;
+	-ms-transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    transform: translate(0px,5px);
+    -webkit-box-shadow: 0px 6px 16px 0px rgba(66, 66, 66, 0);
+    box-shadow: 0px 6px 16px 0px rgba(66, 66, 66, 0);
+}
+
+.rs-counter .counter-title {
+	color: #fff;
+	font-size: 30px;
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.rs-counter .counter-text p {
+	margin-bottom: 35px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.rs-counter .counter-img {
+	box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+.rs-counter .counter-img img {
+	border-radius: 8px;
+}
+
+.call-to-action-area{
+	background-size: contain
+}
+
+@media only screen and (max-width: 991px) {
+	.rs-counter .rs-counter-list .counter-number {
+		font-size: 50px;
+	}
+	.rs-counter .counter-title {
+		font-size: 36px;
+		margin-bottom: 16px;
+	}
+}
+
+@media (max-width: 991px) {
+	.logo {
+		float: right;
+		text-align: right
+	}
+	.accordion-wrapper {
+		float: left
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.rs-counter .counter-title {
+		font-size: 18px;
+		margin-bottom: 4px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.rs-counter .rs-counter-list .counter-number {
+		font-size: 40px;
+	}
+}

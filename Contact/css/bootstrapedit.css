@@ -1,0 +1,7 @@
+.alert-danger,.alert-success {
+
+    text-align: center;
+}
+.alert-error1,.alert-error2,.alert-error3{
+    display: none;
+}
